@@ -1,0 +1,16 @@
+{
+  "name": "st01tkh-mingw",
+  "version": "0.1.0",
+  "author": "st01tkh",
+  "summary": "Setup MinGW",
+  "license": "Apache 2.0",
+  "source": "https://github.com/st01tkh/puppet-mingw",
+  "project_page": "https://github.com/st01tkh/puppet-mingw",
+  "issues_url": "https://github.com/st01tkh/puppet-mingw",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"},
+    {"name":"chocolatey-chocolatey","version_requirement":">= 1.2.0"}
+  ],
+  "operatingsystem_support": [{"operatingsystem": "Windows"}]
+}
+
